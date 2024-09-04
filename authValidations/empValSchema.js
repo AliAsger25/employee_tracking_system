@@ -57,6 +57,10 @@ const employeeValSchema = {
         empTechnologies: joi
             .string()
             .required(),
+        empRole: joi
+            .string()
+            .valid('Admin', 'Employee')
+            .required(),
     }),
 
     employeeLogin: joi.object({
@@ -82,7 +86,7 @@ const employeeValSchema = {
                 'password.onlyLatinCharacters': '{#label} should contain only latin characters',
             }),
     }),
-    forgetPassword: joi.object({
+    resetPassword: joi.object({
         newPassword: joiPassword
             .string()
             .minOfSpecialCharacters(1)
@@ -103,7 +107,7 @@ const employeeValSchema = {
         confirmPassword: joiPassword
             .string()
             .required(),
-    }),
+    }).unknown(true),
 }
 
 module.exports = employeeValSchema;

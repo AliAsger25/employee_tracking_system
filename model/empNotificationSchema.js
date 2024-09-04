@@ -1,13 +1,11 @@
 const mongoose = require('mongoose');
 
 const empNotification = new mongoose.Schema({
-    notificationTitle: {
+    noticeTitle: {
         type: String,
-        require: true,
     },
-    notificationMessage: {
+    noticeMessage: {
         type: String,
-        require: true,
     },
     empId: {
         type: mongoose.Types.ObjectId,

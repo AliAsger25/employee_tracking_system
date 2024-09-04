@@ -2,12 +2,12 @@ let express = require("express");
 require("dotenv").config();
 require("./config/modelConfig");
 const logger = require("./utils/systemLogger");
-const commonRouter = require("./routes/mainRoutes")
+const mainRouter = require("./urls");
 
 let app = express();
 
 app.use(express.json());
-app.use("/", commonRouter);
+app.use("/", mainRouter);
 
 const server = app.listen(process.env.PORT, ()=>{
     // console.log(`server is running on port number: ${process.env.PORT}`);

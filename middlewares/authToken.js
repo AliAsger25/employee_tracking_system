@@ -1,6 +1,5 @@
 const jwt = require("jsonwebtoken");
 
-
 module.exports = {
   empAuthentication: async (req, res, next) => {
     const authHeader = req.headers.Authorization || req.headers.authorization;
@@ -14,7 +13,6 @@ module.exports = {
           });
         } else {
           req.user = decoded.userData;
-          console.log(decoded.userData);
           next();
         }
       });

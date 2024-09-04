@@ -1,0 +1,31 @@
+level : error:Aug-02-2023 17:28:35 : 	Employee is already registered with this email!
+level : error:Aug-02-2023 17:30:43 : 	Employee is already registered with this email!
+level : error:Aug-02-2023 17:33:13 : 	Employee is already registered with this email!
+level : error:Aug-02-2023 17:34:10 : 	Employee is already registered with this email!
+level : error:Aug-03-2023 12:01:27 : 	Enter valid email or password!!
+level : error:Aug-03-2023 12:03:31 : 	Enter valid email or password!!
+level : error:Aug-03-2023 12:03:46 : 	Enter valid email or password!!
+level : error:Aug-03-2023 12:03:48 : 	Enter valid email or password!!
+level : error:Aug-03-2023 12:04:38 : 	Enter valid email or password!!
+level : error:Aug-03-2023 12:04:56 : 	Enter valid email or password!!
+level : error:Aug-03-2023 12:36:24 : 	Employee is already registered with this email!
+level : error:Aug-03-2023 17:17:00 : 	Enter valid email!!
+level : error:Aug-03-2023 17:17:24 : 	Enter valid email!!
+level : error:Aug-03-2023 17:17:26 : 	Enter valid email!!
+level : error:Aug-07-2023 15:31:23 : 	Enter valid email or password!!
+level : error:Aug-07-2023 15:37:20 : 	invalid token
+level : error:Aug-07-2023 15:37:51 : 	invalid signature
+level : error:Aug-07-2023 15:47:44 : 	Password and confirm password do not match!!
+level : error:Aug-07-2023 15:51:48 : 	Old password do not match!!
+level : error:Aug-07-2023 16:43:41 : 	Employee is already registered with this email!
+level : error:Aug-08-2023 11:15:36 : 	empTimeSheetSchema is not defined
+level : error:Aug-09-2023 15:00:09 : 	userData is not defined
+level : error:Aug-09-2023 15:01:32 : 	newProfilePic is not defined
+level : error:Aug-09-2023 15:01:59 : 	newProfilePic is not defined
+level : error:Aug-09-2023 22:55:53 : 	checkEmployee is not defined
+level : error:Aug-09-2023 22:57:29 : 	Old password do not match!!
+level : error:Aug-09-2023 23:00:03 : 	Password and confirm password do not match!!
+level : error:Aug-10-2023 18:02:31 : 	invalid signature
+level : error:Aug-11-2023 15:07:13 : 	Cannot convert object to primitive value
+level : error:Aug-19-2023 14:14:06 : 	Error: TypeError: emailService is not a function
+level : error:Aug-19-2023 14:25:59 : 	Error: ReferenceError: emailService is not defined

@@ -3,39 +3,46 @@ const mongoose = require("mongoose");
 const empLeaveSchema = new mongoose.Schema({
     totalLeaves: {
         type: Number,
-        require: true,
+        default : 22,
     },
     casualLeave: {
         type: Number,
         require: true,
-        default: 0,
+        default: 10,
     },
     sickLeave: {
         type: Number,
         require: true,
-        default: 0,
+        default: 10,
     },
     leaveType: {
         type: String,
         default: 'Casual Leave',
         require: true,
     },
-    status: {
+    startDate: {
+        type: Date,
+        require: true
+    },
+    endDate: {
+        type: Date,
+        require: true
+    },
+    empStatus: {
         type: String,
-        require: true,
         default: 'Pending',
     },
     message: {
         type: String,
+        default: "",
+    },
+    empId: {
+        type: mongoose.Types.ObjectId,
+        ref: "employee",
         require: true,
     },
-    empId:{
-        type : mongoose.Types.ObjectId,
-        ref : "employee",
-        require: true,
-    },
-    isActive:{
-        type :Boolean,
+    isActive: {
+        type: Boolean,
         require: true,
     }
 });

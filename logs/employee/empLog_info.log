@@ -1,0 +1,82 @@
+level : error:Aug-02-2023 17:33:13 : 	Employee is already registered with this email!
+level : info:Aug-02-2023 17:33:35 : 	Employee successfully registered.
+level : error:Aug-02-2023 17:34:10 : 	Employee is already registered with this email!
+level : info:Aug-02-2023 18:23:01 : 	Employee successfully registered.
+level : info:Aug-02-2023 18:36:21 : 	Employee successfully registered.
+level : error:Aug-03-2023 12:01:27 : 	Enter valid email or password!!
+level : info:Aug-03-2023 12:03:00 : 	Employee successfully registered.
+level : error:Aug-03-2023 12:03:31 : 	Enter valid email or password!!
+level : error:Aug-03-2023 12:03:46 : 	Enter valid email or password!!
+level : error:Aug-03-2023 12:03:48 : 	Enter valid email or password!!
+level : error:Aug-03-2023 12:04:38 : 	Enter valid email or password!!
+level : error:Aug-03-2023 12:04:56 : 	Enter valid email or password!!
+level : info:Aug-03-2023 12:08:58 : 	Employee login successfull 
+level : error:Aug-03-2023 12:36:24 : 	Employee is already registered with this email!
+level : info:Aug-03-2023 16:40:37 : 	Employee login successfull 
+level : info:Aug-03-2023 16:59:05 : 	Employee login successfull 
+level : info:Aug-03-2023 17:01:54 : 	Employee login successfull 
+level : info:Aug-03-2023 17:16:23 : 	Mail sent successfully
+level : error:Aug-03-2023 17:17:00 : 	Enter valid email!!
+level : error:Aug-03-2023 17:17:24 : 	Enter valid email!!
+level : error:Aug-03-2023 17:17:26 : 	Enter valid email!!
+level : info:Aug-03-2023 17:17:41 : 	Mail sent successfully
+level : info:Aug-03-2023 17:31:04 : 	Mail sent successfully
+level : info:Aug-03-2023 17:31:10 : 	Employee login successfull 
+level : info:Aug-04-2023 11:51:53 : 	Employee login successfull 
+level : info:Aug-04-2023 11:52:07 : 	Mail sent successfully
+level : info:Aug-04-2023 12:02:41 : 	Mail sent successfully
+level : info:Aug-04-2023 15:43:20 : 	Mail sent successfully
+level : info:Aug-07-2023 15:27:34 : 	Employee successfully registered.
+level : info:Aug-07-2023 15:28:01 : 	Employee login successfull 
+level : info:Aug-07-2023 15:31:11 : 	Password updated successfully 
+level : error:Aug-07-2023 15:31:23 : 	Enter valid email or password!!
+level : info:Aug-07-2023 15:31:32 : 	Employee login successfull 
+level : error:Aug-07-2023 15:37:20 : 	invalid token
+level : error:Aug-07-2023 15:37:51 : 	invalid signature
+level : error:Aug-07-2023 15:47:44 : 	Password and confirm password do not match!!
+level : info:Aug-07-2023 15:50:22 : 	Password updated successfully 
+level : info:Aug-07-2023 15:50:31 : 	Password updated successfully 
+level : info:Aug-07-2023 15:50:36 : 	Password updated successfully 
+level : error:Aug-07-2023 15:51:48 : 	Old password do not match!!
+level : error:Aug-07-2023 16:43:41 : 	Employee is already registered with this email!
+level : error:Aug-08-2023 11:15:36 : 	empTimeSheetSchema is not defined
+level : info:Aug-08-2023 11:17:32 : 	Profile pic updated successfully
+level : info:Aug-08-2023 16:26:17 : 	Address updated successfully
+level : info:Aug-08-2023 16:33:38 : 	Address updated successfully
+level : info:Aug-08-2023 18:22:12 : 	Profile pic and address updated successfully
+level : info:Aug-08-2023 18:24:39 : 	Profile pic and address updated successfully
+level : error:Aug-09-2023 15:00:09 : 	userData is not defined
+level : error:Aug-09-2023 15:01:32 : 	newProfilePic is not defined
+level : error:Aug-09-2023 15:01:59 : 	newProfilePic is not defined
+level : info:Aug-09-2023 15:06:06 : 	Profile pic and address updated successfully
+level : info:Aug-09-2023 15:09:45 : 	Profile pic and address updated successfully
+level : info:Aug-09-2023 15:10:28 : 	Profile pic and address updated successfully
+level : info:Aug-09-2023 17:50:55 : 	Employee login successfull 
+level : info:Aug-09-2023 18:37:19 : 	Employee successfully registered.
+level : info:Aug-09-2023 22:40:08 : 	Employee successfully registered.
+level : info:Aug-09-2023 22:41:33 : 	Employee login successfull 
+level : error:Aug-09-2023 22:55:53 : 	checkEmployee is not defined
+level : error:Aug-09-2023 22:57:29 : 	Old password do not match!!
+level : info:Aug-09-2023 22:58:12 : 	Password updated successfully 
+level : error:Aug-09-2023 23:00:03 : 	Password and confirm password do not match!!
+level : info:Aug-10-2023 15:30:45 : 	User login successfull 
+level : info:Aug-10-2023 17:13:48 : 	User login successfull 
+level : info:Aug-10-2023 17:14:47 : 	User login successfull 
+level : info:Aug-10-2023 17:23:56 : 	Profile pic and address updated successfully
+level : info:Aug-10-2023 17:25:16 : 	User data updated successfully
+level : info:Aug-10-2023 17:26:08 : 	User data updated successfully
+level : info:Aug-10-2023 17:48:19 : 	User login successfull 
+level : info:Aug-10-2023 17:51:31 : 	User login successfull 
+level : info:Aug-10-2023 17:52:16 : 	User login successfull 
+level : info:Aug-10-2023 18:01:11 : 	User login successfull 
+level : info:Aug-10-2023 18:01:26 : 	Mail sent successfully
+level : error:Aug-10-2023 18:02:31 : 	invalid signature
+level : error:Aug-11-2023 15:07:13 : 	Cannot convert object to primitive value
+level : info:Aug-11-2023 15:10:24 : 	User data updated successfully
+level : info:Aug-11-2023 15:16:58 : 	User data updated successfully
+level : info:Aug-11-2023 15:24:17 : 	User data updated successfully
+level : info:Aug-11-2023 15:24:51 : 	User data updated successfully
+level : info:Aug-14-2023 15:58:30 : 	Mail sent successfully
+level : error:Aug-19-2023 14:14:06 : 	Error: TypeError: emailService is not a function
+level : error:Aug-19-2023 14:25:59 : 	Error: ReferenceError: emailService is not defined
+level : info:Aug-19-2023 14:26:37 : 	Email Sent Successfully ❤

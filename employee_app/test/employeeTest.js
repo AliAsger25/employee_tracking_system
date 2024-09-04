@@ -1,8 +1,8 @@
-const server = require("../index");
+const server = require("../../index");
 const chai = require("chai");
 const chaiHttp = require("chai-http");
 const randomEmail = require("random-email");
-const employeeSchema = require("../model/employeeSchema");
+const employeeSchema = require("../../model/employeeSchema");
 const employeeRoutes = require("../routes/employeeRoutes");
 
 

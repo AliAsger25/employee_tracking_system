@@ -9,49 +9,48 @@ const employeeSchema = new mongoose.Schema({
         type: String,
         require: true,
     },
-    empPassword:{
-        type: String,
-       require: true,
-    },
-    empCity:{
+    empPassword: {
         type: String,
         require: true,
     },
-    empAddress:{
+    empCity: {
+        type: String,
+        require: true,
+    },
+    empAddress: {
         type: String,
         require: true,
         default: "",
     },
-    empPhoneNo:{
+    empPhoneNo: {
         type: Number,
         require: true,
     },
-    empGender:{
+    empGender: {
         type: String,
         require: true,
     },
-    empProfilePic:{
+    empProfilePic: {
         type: String,
     },
-    empWorkingStatus:{
+    empWorkingStatus: {
         type: String,
         require: true,
-        default : "Working",
-    },
-    empTechnologies:{
-        type: String,
-        require: true,
+        default: "Working",
     },
     empRole: {
         type: String,
-        require: true,
-        default : "Employee"
+        default: "Employee",
+    },
+    empTechnologies: {
+        type: String,
+        default: "nodejs",
     },
     isActive: {
         type: Boolean,
         require: true,
-      },
+    },
 })
 employeeSchema.set("timestamps", true);
 
-module.exports = mongoose.model('employee',employeeSchema);
+module.exports = mongoose.model('employee', employeeSchema);
